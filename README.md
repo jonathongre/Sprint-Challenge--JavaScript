@@ -30,13 +30,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    `.forEach` is used to apply functions or changes to an existing array. `.map` does the same but returns a new array and does not alter the original array.
+
 2. What is the difference between a function and a method?
+
+    A function is used in a global setting and is not tied to an object. Methods are functions that are specifically made for objects.
 
 3. What is closure?
 
+    The scope within a function that seperates it from the global scope. Any variables declared inside a function only exist within that function.
+
 4. Describe the four rules of the 'this' keyword.
 
+    1. Window/global object binding: when global, "this" is the window/console.
+    2. Implicit Binding: when a function is called with a dot, the object before the dot is "this".
+    3. New binding: When a constructor function is used, "this" refers to the object created by the constructor function
+    4. Explicit binding: When a "call" or "apply" method is used, "this" is explicitly defined 
+ 
+
 5. Why do we need super() in an extended class?
+
+    This calls the properties and functions of the extended class.
 
 ## Project Set up
 
@@ -74,11 +88,11 @@ This challenge takes a look at callbacks and closures as well as scope.
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [x] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
